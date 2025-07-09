@@ -14,6 +14,7 @@ const inconsistent_whitespace = fs.readFileSync(
   path.join(fixture_path, 'inconsistent-whitespace')
 , 'utf8'
 )
+const first = fs.readFileSync(path.join(fixture_path, 'first'), 'utf8')
 
 const Suite = new RuleTester({
   parserOptions: {
@@ -40,6 +41,14 @@ Suite.run('sensible/indent', rule, {
           "parameters": "first",
           "body": 1
         },
+        "CallExpression": {
+          "arguments": "first"
+        },
+      }]
+    }
+  , {
+      code: first
+    , options: [2, {
         "CallExpression": {
           "arguments": "first"
         },
