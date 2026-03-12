@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sensible",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "Better comma first indent rules for eslint",
   "main": "lib/index.js",
   "scripts": {

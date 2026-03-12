@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/esatterwhite/eslint-plugin-sensible/compare/v3.1.0...v4.0.0) (2026-03-12)
+
+
+### Chores
+
+* **ci**: update tested node versions [8c0c56b](https://github.com/esatterwhite/eslint-plugin-sensible/commit/8c0c56bd104b540741f67b8de4da36d3ab127592) - Eric Satterwhite
+* **pkg**: add support for eslint 9, 10 [56d2827](https://github.com/esatterwhite/eslint-plugin-sensible/commit/56d28272366c6a2661e3c8c4ca2056b3bcec59c9) - Eric Satterwhite
+
+
+### **BREAKING CHANGES**
+
+* **pkg:** minimum version of eslint updated to 9
+
 # [3.1.0](https://github.com/esatterwhite/eslint-plugin-sensible/compare/v3.0.3...v3.1.0) (2023-12-12)
 
 
