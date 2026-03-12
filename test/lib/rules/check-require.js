@@ -13,7 +13,7 @@ const node_version = semver.parse(process.versions.node)
 
 {
   const Suite = new RuleTester({
-    parserOptions: {
+    languageOptions: {
       ecmaVersion: 2018
     , sourceType: 'script'
     }
@@ -59,7 +59,7 @@ const node_version = semver.parse(process.versions.node)
 
 {
   const Suite = new RuleTester({
-    parserOptions: {
+    languageOptions: {
       ecmaVersion: 2018
     , sourceType: 'script'
     }
