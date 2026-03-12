@@ -16,7 +16,7 @@ const inconsistent_whitespace = fs.readFileSync(
 )
 
 const Suite = new RuleTester({
-  parserOptions: {
+  languageOptions: {
     ecmaVersion: 2020
   , sourceType: 'script'
   }
@@ -51,7 +51,6 @@ Suite.run('sensible/indent', rule, {
   , output: 'var x = {\n  a: 1\n, b: 2\n}\n'
   , errors: [{
       message: 'Expected indentation of 0 spaces but found 2.'
-    , type: 'Punctuator'
     }]
   }]
 })
